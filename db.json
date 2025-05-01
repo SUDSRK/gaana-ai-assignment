@@ -1,0 +1,19 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Example Song",
+      "artist": "Example Artist",
+      "album": "Example Album",
+      "duration": "3:45",
+      "genre": "Pop"
+    }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "name": "My Playlist",
+      "songs": [1]
+    }
+  ]
+} 
