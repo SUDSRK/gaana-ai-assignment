@@ -2,18 +2,265 @@
   "songs": [
     {
       "id": 1,
-      "title": "Example Song",
-      "artist": "Example Artist",
-      "album": "Example Album",
-      "duration": "3:45",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "duration": "3:53",
       "genre": "Pop"
+    },
+    {
+      "id": 2,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": "3:20",
+      "genre": "Pop"
+    },
+    {
+      "id": 3,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "duration": "5:55",
+      "genre": "Rock"
+    },
+    {
+      "id": 4,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "duration": "4:54",
+      "genre": "Pop"
+    },
+    {
+      "id": 5,
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "duration": "5:56",
+      "genre": "Rock"
+    },
+    {
+      "id": 6,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "duration": "5:01",
+      "genre": "Grunge"
+    },
+    {
+      "id": 7,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "duration": "6:30",
+      "genre": "Rock"
+    },
+    {
+      "id": 8,
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "duration": "3:48",
+      "genre": "Pop"
+    },
+    {
+      "id": 9,
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "duration": "8:02",
+      "genre": "Rock"
+    },
+    {
+      "id": 10,
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson ft. Bruno Mars",
+      "album": "Uptown Special",
+      "duration": "4:30",
+      "genre": "Funk"
+    },
+    {
+      "id": 11,
+      "title": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Vida",
+      "duration": "3:49",
+      "genre": "Latin Pop"
+    },
+    {
+      "id": 12,
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "album": "Hunting High and Low",
+      "duration": "3:45",
+      "genre": "Synth-pop"
+    },
+    {
+      "id": 13,
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "duration": "4:18",
+      "genre": "Britpop"
+    },
+    {
+      "id": 14,
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "duration": "6:13",
+      "genre": "Folk Rock"
+    },
+    {
+      "id": 15,
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "album": "Hey Jude",
+      "duration": "7:11",
+      "genre": "Rock"
+    },
+    {
+      "id": 16,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "duration": "5:57",
+      "genre": "Pop"
+    },
+    {
+      "id": 17,
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Second Helping",
+      "duration": "4:45",
+      "genre": "Southern Rock"
+    },
+    {
+      "id": 18,
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "duration": "2:50",
+      "genre": "Rock"
+    },
+    {
+      "id": 19,
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile",
+      "duration": "5:26",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 20,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "duration": "5:01",
+      "genre": "Grunge"
+    },
+    {
+      "id": 21,
+      "title": "Sweet Dreams",
+      "artist": "Eurythmics",
+      "album": "Sweet Dreams (Are Made of This)",
+      "duration": "3:36",
+      "genre": "New Wave"
+    },
+    {
+      "id": 22,
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "album": "Synchronicity",
+      "duration": "4:13",
+      "genre": "New Wave"
+    },
+    {
+      "id": 23,
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "album": "Escape",
+      "duration": "4:11",
+      "genre": "Rock"
+    },
+    {
+      "id": 24,
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "duration": "5:56",
+      "genre": "Rock"
+    },
+    {
+      "id": 25,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "duration": "5:55",
+      "genre": "Rock"
+    },
+    {
+      "id": 26,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "duration": "4:54",
+      "genre": "Pop"
+    },
+    {
+      "id": 27,
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "album": "Second Helping",
+      "duration": "4:45",
+      "genre": "Southern Rock"
+    },
+    {
+      "id": 28,
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "album": "Are You Experienced",
+      "duration": "2:50",
+      "genre": "Rock"
+    },
+    {
+      "id": 29,
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile",
+      "duration": "5:26",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 30,
+      "title": "Sweet Dreams",
+      "artist": "Eurythmics",
+      "album": "Sweet Dreams (Are Made of This)",
+      "duration": "3:36",
+      "genre": "New Wave"
     }
   ],
   "playlists": [
     {
       "id": 1,
-      "name": "My Playlist",
-      "songs": [1]
+      "name": "Classic Rock",
+      "songs": [3, 5, 7, 9, 15, 17, 18, 23, 24, 25]
+    },
+    {
+      "id": 2,
+      "name": "Pop Hits",
+      "songs": [1, 2, 4, 8, 11, 16, 26]
+    },
+    {
+      "id": 3,
+      "name": "90s Mix",
+      "songs": [6, 12, 13, 20, 21, 22]
+    },
+    {
+      "id": 4,
+      "name": "Modern Mix",
+      "songs": [1, 2, 8, 10, 11, 19, 29]
     }
   ]
 } 
