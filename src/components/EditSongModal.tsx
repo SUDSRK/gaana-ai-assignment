@@ -39,6 +39,7 @@ export default function EditSongModal({ song, isOpen, onClose, onSave, isNew = f
 
     try {
       if (isNew) {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { id, ...newSong } = editedSong;
         await onSave(newSong);
       } else {

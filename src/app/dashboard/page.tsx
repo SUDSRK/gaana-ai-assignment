@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Table from '@/components/Table';
 import Snackbar from '@/components/Snackbar';
 import EditSongModal from '@/components/EditSongModal';
@@ -45,7 +45,7 @@ export default function Dashboard() {
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [songToDelete, setSongToDelete] = useState<Song | null>(null);
 
-  const fetchSongs = async () => {
+  const fetchSongs = useCallback(async () => {
     try {
       setLoading(true);
       setError(null);
@@ -104,11 +104,11 @@ export default function Dashboard() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [pagination.currentPage, itemsPerPage, searchTerm, sortConfig, setLoading, setError, setSongs, setPagination, setSnackbarMessage, setSnackbarSeverity, setShowSnackbar]);
 
   useEffect(() => {
     fetchSongs();
-  }, [pagination.currentPage, itemsPerPage, searchTerm, sortConfig]);
+  }, [fetchSongs]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {

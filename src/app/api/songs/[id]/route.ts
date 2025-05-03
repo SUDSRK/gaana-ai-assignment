@@ -35,13 +35,13 @@ const writeDb = (data: DbData) => {
 // Get a song by ID
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const idParam = params.id;
+    const { id } = await params;
     
     const dbData = readDb();
-    const song = dbData.songs.find((s: Song) => s.id.toString() === idParam);
+    const song = dbData.songs.find((s: Song) => s.id.toString() === id);
 
     if (!song) {
       return NextResponse.json({ error: 'Song not found' }, { status: 404 });
@@ -60,13 +60,13 @@ export async function GET(
 // Update a song
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const idParam = params.id;
+    const { id } = await params;
     
     const dbData = readDb();
-    const songIndex = dbData.songs.findIndex((s: Song) => s.id.toString() === idParam);
+    const songIndex = dbData.songs.findIndex((s: Song) => s.id.toString() === id);
 
     if (songIndex === -1) {
       return NextResponse.json({ error: 'Song not found' }, { status: 404 });
@@ -103,13 +103,13 @@ export async function PATCH(
 // Delete a song
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const idParam = params.id;
+    const { id } = await params;
     
     const dbData = readDb();
-    const songIndex = dbData.songs.findIndex((s: Song) => s.id.toString() === idParam);
+    const songIndex = dbData.songs.findIndex((s: Song) => s.id.toString() === id);
 
     if (songIndex === -1) {
       return NextResponse.json({ error: 'Song not found' }, { status: 404 });
