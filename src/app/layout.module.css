@@ -8,7 +8,7 @@
 }
 
 .navContainer {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -36,7 +36,7 @@
 }
 
 .main {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   min-height: calc(100vh - 4rem);
