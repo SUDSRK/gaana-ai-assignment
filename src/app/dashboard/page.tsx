@@ -6,13 +6,24 @@ import Snackbar from '@/components/Snackbar';
 import { Song } from '@/types/song';
 import styles from './dashboard.module.css';
 
+interface PaginationInfo {
+  currentPage: number;
+  totalPages: number;
+  totalItems: number;
+}
+
 export default function Dashboard() {
   const [songs, setSongs] = useState<Song[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchInput, setSearchInput] = useState('');
   const [sortConfig, setSortConfig] = useState<{ key: keyof Song; direction: 'asc' | 'desc' } | null>(null);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [pagination, setPagination] = useState<PaginationInfo>({
+    currentPage: 1,
+    totalPages: 1,
+    totalItems: 0
+  });
   const [itemsPerPage] = useState(10);
   const [visibleColumns, setVisibleColumns] = useState<Array<keyof Song>>([
     'title',
@@ -24,18 +35,20 @@ export default function Dashboard() {
   const [showSnackbar, setShowSnackbar] = useState(false);
   const [showColumnsDropdown, setShowColumnsDropdown] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const searchTimeout = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
     const fetchSongs = async () => {
       try {
-        let url = `http://localhost:3001/songs?_page=${currentPage}&_limit=${itemsPerPage}`;
+        setLoading(true);
+        let url = `/api/songs?page=${pagination.currentPage}&limit=${itemsPerPage}`;
         
         if (searchTerm) {
-          url += `&q=${searchTerm}`;
+          url += `&search=${encodeURIComponent(searchTerm)}`;
         }
         
         if (sortConfig) {
-          url += `&_sort=${sortConfig.key}&_order=${sortConfig.direction}`;
+          url += `&sort=${sortConfig.key}&order=${sortConfig.direction}`;
         }
 
         const response = await fetch(url);
@@ -44,7 +57,12 @@ export default function Dashboard() {
         }
         
         const data = await response.json();
-        setSongs(data);
+        setSongs(data.songs);
+        setPagination({
+          currentPage: data.currentPage,
+          totalPages: data.totalPages,
+          totalItems: data.totalItems
+        });
         setLoading(false);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
@@ -53,7 +71,7 @@ export default function Dashboard() {
     };
 
     fetchSongs();
-  }, [currentPage, itemsPerPage, searchTerm, sortConfig]);
+  }, [pagination.currentPage, itemsPerPage, searchTerm, sortConfig]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -67,8 +85,17 @@ export default function Dashboard() {
   }, []);
 
   const handleSearch = (value: string) => {
-    setSearchTerm(value);
-    setCurrentPage(1);
+    setSearchInput(value);
+    // Clear previous timeout
+    if (searchTimeout.current) {
+      clearTimeout(searchTimeout.current);
+    }
+
+    // Set new timeout
+    searchTimeout.current = setTimeout(() => {
+      setSearchTerm(value);
+      setPagination(prev => ({ ...prev, currentPage: 1 }));
+    }, 500); // 500ms debounce
   };
 
   const handleSort = (key: keyof Song) => {
@@ -108,7 +135,7 @@ export default function Dashboard() {
           <input
             type="text"
             placeholder="Search songs..."
-            value={searchTerm}
+            value={searchInput}
             onChange={(e) => handleSearch(e.target.value)}
             className={styles.searchInput}
           />
@@ -151,15 +178,18 @@ export default function Dashboard() {
 
       <div className={styles.pagination}>
         <button
-          onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
-          disabled={currentPage === 1}
+          onClick={() => setPagination(prev => ({ ...prev, currentPage: prev.currentPage - 1 }))}
+          disabled={pagination.currentPage === 1}
           className={styles.paginationButton}
         >
           Previous
         </button>
-        <span className={styles.pageNumber}>Page {currentPage}</span>
+        <span className={styles.pageNumber}>
+          Page {pagination.currentPage} of {pagination.totalPages}
+        </span>
         <button
-          onClick={() => setCurrentPage(prev => prev + 1)}
+          onClick={() => setPagination(prev => ({ ...prev, currentPage: prev.currentPage + 1 }))}
+          disabled={pagination.currentPage === pagination.totalPages}
           className={styles.paginationButton}
         >
           Next

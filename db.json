@@ -239,28 +239,326 @@
       "album": "Sweet Dreams (Are Made of This)",
       "duration": "3:36",
       "genre": "New Wave"
-    }
-  ],
-  "playlists": [
-    {
-      "id": 1,
-      "name": "Classic Rock",
-      "songs": [3, 5, 7, 9, 15, 17, 18, 23, 24, 25]
     },
     {
-      "id": 2,
-      "name": "Pop Hits",
-      "songs": [1, 2, 4, 8, 11, 16, 26]
+      "id": 41,
+      "title": "Dance Monkey",
+      "artist": "Tones and I",
+      "album": "The Kids Are Coming",
+      "duration": "3:29",
+      "genre": "Pop"
     },
     {
-      "id": 3,
-      "name": "90s Mix",
-      "songs": [6, 12, 13, 20, 21, 22]
+      "id": 42,
+      "title": "Bad Guy",
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "duration": "3:14",
+      "genre": "Pop"
     },
     {
-      "id": 4,
-      "name": "Modern Mix",
-      "songs": [1, 2, 8, 10, 11, 19, 29]
+      "id": 43,
+      "title": "Old Town Road",
+      "artist": "Lil Nas X",
+      "album": "7",
+      "duration": "2:37",
+      "genre": "Country Rap"
+    },
+    {
+      "id": 44,
+      "title": "Senorita",
+      "artist": "Shawn Mendes & Camila Cabello",
+      "album": "Shawn Mendes",
+      "duration": "3:10",
+      "genre": "Pop"
+    },
+    {
+      "id": 45,
+      "title": "Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "album": "Divinely Uninspired to a Hellish Extent",
+      "duration": "3:02",
+      "genre": "Pop"
+    },
+    {
+      "id": 46,
+      "title": "Circles",
+      "artist": "Post Malone",
+      "album": "Hollywood's Bleeding",
+      "duration": "3:35",
+      "genre": "Pop"
+    },
+    {
+      "id": 47,
+      "title": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "duration": "3:03",
+      "genre": "Pop"
+    },
+    {
+      "id": 48,
+      "title": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "duration": "2:54",
+      "genre": "Pop"
+    },
+    {
+      "id": 49,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": "3:20",
+      "genre": "Pop"
+    },
+    {
+      "id": 50,
+      "title": "Savage Love",
+      "artist": "Jawsh 685 & Jason Derulo",
+      "album": "Savage Love",
+      "duration": "2:51",
+      "genre": "Pop"
+    },
+    {
+      "id": 51,
+      "title": "Rockstar",
+      "artist": "DaBaby ft. Roddy Ricch",
+      "album": "Blame It on Baby",
+      "duration": "3:01",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 52,
+      "title": "Say So",
+      "artist": "Doja Cat",
+      "album": "Hot Pink",
+      "duration": "3:57",
+      "genre": "Pop"
+    },
+    {
+      "id": 53,
+      "title": "Intentions",
+      "artist": "Justin Bieber ft. Quavo",
+      "album": "Changes",
+      "duration": "3:32",
+      "genre": "Pop"
+    },
+    {
+      "id": 54,
+      "title": "Adore You",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "duration": "3:27",
+      "genre": "Pop"
+    },
+    {
+      "id": 55,
+      "title": "Roses",
+      "artist": "SAINt JHN",
+      "album": "Collection One",
+      "duration": "2:54",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 56,
+      "title": "Break My Heart",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "duration": "3:41",
+      "genre": "Pop"
+    },
+    {
+      "id": 57,
+      "title": "Toosie Slide",
+      "artist": "Drake",
+      "album": "Dark Lane Demo Tapes",
+      "duration": "4:07",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 58,
+      "title": "The Box",
+      "artist": "Roddy Ricch",
+      "album": "Please Excuse Me for Being Antisocial",
+      "duration": "3:16",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 59,
+      "title": "Life Is Good",
+      "artist": "Future ft. Drake",
+      "album": "High Off Life",
+      "duration": "3:57",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 60,
+      "title": "Memories",
+      "artist": "Maroon 5",
+      "album": "JORDI",
+      "duration": "3:09",
+      "genre": "Pop"
+    },
+    {
+      "id": 61,
+      "title": "Before You Go",
+      "artist": "Lewis Capaldi",
+      "album": "Divinely Uninspired to a Hellish Extent",
+      "duration": "3:35",
+      "genre": "Pop"
+    },
+    {
+      "id": 62,
+      "title": "Everything I Wanted",
+      "artist": "Billie Eilish",
+      "album": "When We All Fall Asleep, Where Do We Go?",
+      "duration": "4:05",
+      "genre": "Pop"
+    },
+    {
+      "id": 63,
+      "title": "Lose You to Love Me",
+      "artist": "Selena Gomez",
+      "album": "Rare",
+      "duration": "3:26",
+      "genre": "Pop"
+    },
+    {
+      "id": 64,
+      "title": "Falling",
+      "artist": "Trevor Daniel",
+      "album": "Nicotine",
+      "duration": "2:39",
+      "genre": "Pop"
+    },
+    {
+      "id": 65,
+      "title": "Roxanne",
+      "artist": "Arizona Zervas",
+      "album": "Roxanne",
+      "duration": "2:43",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 66,
+      "title": "10,000 Hours",
+      "artist": "Dan + Shay & Justin Bieber",
+      "album": "10,000 Hours",
+      "duration": "2:47",
+      "genre": "Country Pop"
+    },
+    {
+      "id": 67,
+      "title": "Señorita",
+      "artist": "Shawn Mendes & Camila Cabello",
+      "album": "Shawn Mendes",
+      "duration": "3:10",
+      "genre": "Pop"
+    },
+    {
+      "id": 68,
+      "title": "Truth Hurts",
+      "artist": "Lizzo",
+      "album": "Cuz I Love You",
+      "duration": "2:53",
+      "genre": "Pop"
+    },
+    {
+      "id": 69,
+      "title": "Good as Hell",
+      "artist": "Lizzo",
+      "album": "Cuz I Love You",
+      "duration": "2:39",
+      "genre": "Pop"
+    },
+    {
+      "id": 70,
+      "title": "Sunflower",
+      "artist": "Post Malone & Swae Lee",
+      "album": "Spider-Man: Into the Spider-Verse",
+      "duration": "2:38",
+      "genre": "Pop"
+    },
+    {
+      "id": 71,
+      "title": "Without Me",
+      "artist": "Halsey",
+      "album": "Manic",
+      "duration": "3:21",
+      "genre": "Pop"
+    },
+    {
+      "id": 72,
+      "title": "Better Now",
+      "artist": "Post Malone",
+      "album": "beerbongs & bentleys",
+      "duration": "3:51",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 73,
+      "title": "Happier",
+      "artist": "Marshmello & Bastille",
+      "album": "Happier",
+      "duration": "3:34",
+      "genre": "Pop"
+    },
+    {
+      "id": 74,
+      "title": "Lucid Dreams",
+      "artist": "Juice WRLD",
+      "album": "Goodbye & Good Riddance",
+      "duration": "3:59",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 75,
+      "title": "Girls Like You",
+      "artist": "Maroon 5 ft. Cardi B",
+      "album": "Red Pill Blues",
+      "duration": "3:55",
+      "genre": "Pop"
+    },
+    {
+      "id": 76,
+      "title": "God's Plan",
+      "artist": "Drake",
+      "album": "Scorpion",
+      "duration": "3:18",
+      "genre": "Hip Hop"
+    },
+    {
+      "id": 77,
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "duration": "4:23",
+      "genre": "Pop"
+    },
+    {
+      "id": 78,
+      "title": "Havana",
+      "artist": "Camila Cabello ft. Young Thug",
+      "album": "Camila",
+      "duration": "3:37",
+      "genre": "Pop"
+    },
+    {
+      "id": 79,
+      "title": "New Rules",
+      "artist": "Dua Lipa",
+      "album": "Dua Lipa",
+      "duration": "3:29",
+      "genre": "Pop"
+    },
+    {
+      "id": 80,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "duration": "3:53",
+      "genre": "Pop"
     }
   ]
 } 
