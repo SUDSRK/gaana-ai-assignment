@@ -27,16 +27,21 @@
 .searchInput {
   width: 100%;
   padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   border-radius: 4px;
   font-size: 1rem;
-  font-weight: 400;
-  transition: border-color 0.2s;
+  color: #ffffff;
+  background-color: #1a1a1a;
 }
 
 .searchInput:focus {
   outline: none;
-  border-color: #0070f3;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.searchInput::placeholder {
+  color: #666;
 }
 
 .columnsDropdownContainer {
@@ -106,36 +111,84 @@
 
 .pagination {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
   margin-top: 2rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.paginationInfo {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.paginationControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.pageNumbers {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.pageButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background: #2a2a2a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pageButton:hover:not(:disabled) {
+  background: #333333;
+}
+
+.pageButton.activePage {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+}
+
+.ellipsis {
+  color: #666;
+  padding: 0 0.5rem;
 }
 
 .paginationButton {
   padding: 0.5rem 1rem;
-  background-color: #0070f3;
-  color: white;
-  border: none;
+  border: 1px solid #333;
   border-radius: 4px;
-  font-weight: 500;
+  background: #2a2a2a;
+  color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.paginationButton:hover:not(:disabled) {
+  background: #333333;
 }
 
 .paginationButton:disabled {
-  background-color: #ccc;
+  opacity: 0.5;
   cursor: not-allowed;
-}
-
-.paginationButton:not(:disabled):hover {
-  background-color: #0051a2;
-}
-
-.pageNumber {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #666;
 }
 
 .loading {
@@ -148,8 +201,179 @@
 
 .error {
   text-align: center;
-  font-size: 1.2rem;
+  padding: 3rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.error p {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+}
+
+.retryButton {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #3b82f6;
+  border-radius: 4px;
+  background: #3b82f6;
+  color: white;
   font-weight: 500;
-  color: #ff4444;
-  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.retryButton:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.dashboard {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.columnsDropdownButton {
+  padding: 0.75rem 1rem;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #1a1a1a;
+}
+
+.columnsDropdownButton:hover {
+  background: #f1f5f9;
+}
+
+.dropdownArrow {
+  font-size: 0.75rem;
+}
+
+.columnsDropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  min-width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.columnLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+
+.columnLabel:hover {
+  background: #f1f5f9;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #1a1a1a;
+  font-size: 1.25rem;
+}
+
+.noSongs {
+  text-align: center;
+  padding: 3rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.noSongs p {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.noSongsSubtext {
+  margin-top: 0.5rem !important;
+  font-size: 1rem !important;
+  color: #999 !important;
+}
+
+.paginationButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.paginationButton:hover:not(:disabled) {
+  background: #f1f5f9;
+}
+
+.paginationButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pageNumber {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.actionsContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.addButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.addButton:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.addButton:active {
+  transform: translateY(0);
+}
+
+/* Add styles for the pagination info */
+.paginationInfo {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.paginationControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 } 

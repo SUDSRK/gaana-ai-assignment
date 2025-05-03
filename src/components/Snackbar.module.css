@@ -1,22 +1,35 @@
 .snackbar {
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #ff4444;
+  right: 20px;
   color: white;
-  padding: 12px 24px;
+  padding: 1rem 1.5rem;
   border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  gap: 12px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  gap: 0.75rem;
   animation: slideIn 0.3s ease-out;
-  font-weight: 500;
+  z-index: 1000;
+}
+
+.snackbar.success {
+  background-color: #10b981;
+}
+
+.snackbar.error {
+  background-color: #ef4444;
+}
+
+.snackbar.warning {
+  background-color: #f59e0b;
+}
+
+.snackbar.info {
+  background-color: #3b82f6;
 }
 
 .message {
-  font-size: 14px;
   font-weight: 500;
 }
 
@@ -24,13 +37,13 @@
   background: none;
   border: none;
   color: white;
-  font-size: 20px;
   cursor: pointer;
-  padding: 0;
-  margin-left: 8px;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0.8;
   transition: opacity 0.2s;
-  font-weight: 500;
 }
 
 .closeButton:hover {
@@ -39,11 +52,11 @@
 
 @keyframes slideIn {
   from {
-    transform: translate(-50%, 100%);
+    transform: translateX(100%);
     opacity: 0;
   }
   to {
-    transform: translate(-50%, 0);
+    transform: translateX(0);
     opacity: 1;
   }
 }

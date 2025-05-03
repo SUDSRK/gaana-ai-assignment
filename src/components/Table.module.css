@@ -1,37 +1,33 @@
 .tableContainer {
+  width: 100%;
   overflow-x: auto;
+  margin-top: 1rem;
   background-color: #1a1a1a;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  margin: 1rem 0;
-  border: 1px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .table {
-  min-width: 100%;
-  background-color: #1a1a1a;
-  border-collapse: separate;
-  border-spacing: 0;
+  width: 100%;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .header {
-  background-color: #121212;
+  background-color: white;
+  padding: 1rem;
   text-align: left;
-  font-size: 0.75rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: #888;
+  color: #1a1a1a;
   cursor: pointer;
-  padding: 1rem 1.5rem;
+  transition: background-color 0.2s;
   border-bottom: 1px solid #333;
-  transition: all 0.2s ease;
-  position: relative;
 }
 
 .header:hover {
-  background-color: #333;
-  color: #f5f5f5;
+  background-color: #f1f5f9;
 }
 
 .header::after {
@@ -61,37 +57,70 @@
 .headerContent {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-}
-
-.cell {
-  padding: 1rem 1.5rem;
-  white-space: nowrap;
-  font-size: 0.875rem;
-  color: #e0e0e0;
-  border-bottom: 1px solid #333;
-  transition: background-color 0.2s ease;
+  justify-content: space-between;
 }
 
 .row {
-  transition: all 0.2s ease;
+  border-bottom: 1px solid #333;
+  transition: background-color 0.2s;
+}
+
+.row:nth-child(even) {
+  background-color: #1a1a1a;
+}
+
+.row:nth-child(odd) {
+  background-color: #121212;
 }
 
 .row:hover {
-  background-color: #333;
+  background-color: #2a2a2a;
 }
 
-.row:hover .cell {
+.cell {
+  padding: 1rem;
   color: #ffffff;
+  font-size: 0.95rem;
 }
 
-/* Add alternating row colors */
-.row:nth-child(even) {
-  background-color: #1f1f1f;
+.actionCell {
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
 }
 
-.row:nth-child(even):hover {
-  background-color: #333;
+.editButton, .deleteButton {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.editButton:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Add a subtle highlight for the first column */

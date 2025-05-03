@@ -1,31 +1,23 @@
 {
   "songs": [
     {
-      "id": 1,
-      "title": "Shape of You",
-      "artist": "Ed Sheeran",
-      "album": "÷",
-      "duration": "3:53",
-      "genre": "Pop"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "title": "Blinding Lights",
       "artist": "The Weeknd",
       "album": "After Hours",
-      "duration": "3:20",
+      "duration": "3:21",
       "genre": "Pop"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
       "album": "A Night at the Opera",
-      "duration": "5:55",
+      "duration": "5:56",
       "genre": "Rock"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Billie Jean",
       "artist": "Michael Jackson",
       "album": "Thriller",
@@ -33,7 +25,7 @@
       "genre": "Pop"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Sweet Child O' Mine",
       "artist": "Guns N' Roses",
       "album": "Appetite for Destruction",
@@ -41,7 +33,7 @@
       "genre": "Rock"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Smells Like Teen Spirit",
       "artist": "Nirvana",
       "album": "Nevermind",
@@ -49,7 +41,7 @@
       "genre": "Grunge"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Hotel California",
       "artist": "Eagles",
       "album": "Hotel California",
@@ -57,7 +49,7 @@
       "genre": "Rock"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Rolling in the Deep",
       "artist": "Adele",
       "album": "21",
@@ -65,7 +57,7 @@
       "genre": "Pop"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Stairway to Heaven",
       "artist": "Led Zeppelin",
       "album": "Led Zeppelin IV",
@@ -73,7 +65,7 @@
       "genre": "Rock"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Uptown Funk",
       "artist": "Mark Ronson ft. Bruno Mars",
       "album": "Uptown Special",
@@ -81,7 +73,7 @@
       "genre": "Funk"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Despacito",
       "artist": "Luis Fonsi ft. Daddy Yankee",
       "album": "Vida",
@@ -89,7 +81,7 @@
       "genre": "Latin Pop"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Take On Me",
       "artist": "a-ha",
       "album": "Hunting High and Low",
@@ -97,7 +89,7 @@
       "genre": "Synth-pop"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Wonderwall",
       "artist": "Oasis",
       "album": "(What's the Story) Morning Glory?",
@@ -105,7 +97,7 @@
       "genre": "Britpop"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Like a Rolling Stone",
       "artist": "Bob Dylan",
       "album": "Highway 61 Revisited",
@@ -113,7 +105,7 @@
       "genre": "Folk Rock"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Hey Jude",
       "artist": "The Beatles",
       "album": "Hey Jude",
@@ -121,7 +113,7 @@
       "genre": "Rock"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Thriller",
       "artist": "Michael Jackson",
       "album": "Thriller",
@@ -129,7 +121,7 @@
       "genre": "Pop"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "Sweet Home Alabama",
       "artist": "Lynyrd Skynyrd",
       "album": "Second Helping",
@@ -137,7 +129,7 @@
       "genre": "Southern Rock"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "Purple Haze",
       "artist": "Jimi Hendrix",
       "album": "Are You Experienced",
@@ -145,7 +137,7 @@
       "genre": "Rock"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Lose Yourself",
       "artist": "Eminem",
       "album": "8 Mile",
@@ -153,7 +145,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Smells Like Teen Spirit",
       "artist": "Nirvana",
       "album": "Nevermind",
@@ -161,7 +153,7 @@
       "genre": "Grunge"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Sweet Dreams",
       "artist": "Eurythmics",
       "album": "Sweet Dreams (Are Made of This)",
@@ -169,7 +161,7 @@
       "genre": "New Wave"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Every Breath You Take",
       "artist": "The Police",
       "album": "Synchronicity",
@@ -177,7 +169,7 @@
       "genre": "New Wave"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Don't Stop Believin'",
       "artist": "Journey",
       "album": "Escape",
@@ -185,7 +177,7 @@
       "genre": "Rock"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Sweet Child O' Mine",
       "artist": "Guns N' Roses",
       "album": "Appetite for Destruction",
@@ -193,7 +185,7 @@
       "genre": "Rock"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Bohemian Rhapsody",
       "artist": "Queen",
       "album": "A Night at the Opera",
@@ -201,7 +193,7 @@
       "genre": "Rock"
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Billie Jean",
       "artist": "Michael Jackson",
       "album": "Thriller",
@@ -209,7 +201,7 @@
       "genre": "Pop"
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Sweet Home Alabama",
       "artist": "Lynyrd Skynyrd",
       "album": "Second Helping",
@@ -217,7 +209,7 @@
       "genre": "Southern Rock"
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Purple Haze",
       "artist": "Jimi Hendrix",
       "album": "Are You Experienced",
@@ -225,7 +217,7 @@
       "genre": "Rock"
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Lose Yourself",
       "artist": "Eminem",
       "album": "8 Mile",
@@ -233,7 +225,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Sweet Dreams",
       "artist": "Eurythmics",
       "album": "Sweet Dreams (Are Made of This)",
@@ -241,7 +233,7 @@
       "genre": "New Wave"
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Dance Monkey",
       "artist": "Tones and I",
       "album": "The Kids Are Coming",
@@ -249,7 +241,7 @@
       "genre": "Pop"
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Bad Guy",
       "artist": "Billie Eilish",
       "album": "When We All Fall Asleep, Where Do We Go?",
@@ -257,7 +249,7 @@
       "genre": "Pop"
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Old Town Road",
       "artist": "Lil Nas X",
       "album": "7",
@@ -265,7 +257,7 @@
       "genre": "Country Rap"
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Senorita",
       "artist": "Shawn Mendes & Camila Cabello",
       "album": "Shawn Mendes",
@@ -273,7 +265,7 @@
       "genre": "Pop"
     },
     {
-      "id": 45,
+      "id": "45",
       "title": "Someone You Loved",
       "artist": "Lewis Capaldi",
       "album": "Divinely Uninspired to a Hellish Extent",
@@ -281,7 +273,7 @@
       "genre": "Pop"
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Circles",
       "artist": "Post Malone",
       "album": "Hollywood's Bleeding",
@@ -289,7 +281,7 @@
       "genre": "Pop"
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Don't Start Now",
       "artist": "Dua Lipa",
       "album": "Future Nostalgia",
@@ -297,7 +289,7 @@
       "genre": "Pop"
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Watermelon Sugar",
       "artist": "Harry Styles",
       "album": "Fine Line",
@@ -305,7 +297,7 @@
       "genre": "Pop"
     },
     {
-      "id": 49,
+      "id": "49",
       "title": "Blinding Lights",
       "artist": "The Weeknd",
       "album": "After Hours",
@@ -313,7 +305,7 @@
       "genre": "Pop"
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Savage Love",
       "artist": "Jawsh 685 & Jason Derulo",
       "album": "Savage Love",
@@ -321,7 +313,7 @@
       "genre": "Pop"
     },
     {
-      "id": 51,
+      "id": "51",
       "title": "Rockstar",
       "artist": "DaBaby ft. Roddy Ricch",
       "album": "Blame It on Baby",
@@ -329,7 +321,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 52,
+      "id": "52",
       "title": "Say So",
       "artist": "Doja Cat",
       "album": "Hot Pink",
@@ -337,7 +329,7 @@
       "genre": "Pop"
     },
     {
-      "id": 53,
+      "id": "53",
       "title": "Intentions",
       "artist": "Justin Bieber ft. Quavo",
       "album": "Changes",
@@ -345,15 +337,7 @@
       "genre": "Pop"
     },
     {
-      "id": 54,
-      "title": "Adore You",
-      "artist": "Harry Styles",
-      "album": "Fine Line",
-      "duration": "3:27",
-      "genre": "Pop"
-    },
-    {
-      "id": 55,
+      "id": "55",
       "title": "Roses",
       "artist": "SAINt JHN",
       "album": "Collection One",
@@ -361,7 +345,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 56,
+      "id": "56",
       "title": "Break My Heart",
       "artist": "Dua Lipa",
       "album": "Future Nostalgia",
@@ -369,7 +353,7 @@
       "genre": "Pop"
     },
     {
-      "id": 57,
+      "id": "57",
       "title": "Toosie Slide",
       "artist": "Drake",
       "album": "Dark Lane Demo Tapes",
@@ -377,7 +361,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 58,
+      "id": "58",
       "title": "The Box",
       "artist": "Roddy Ricch",
       "album": "Please Excuse Me for Being Antisocial",
@@ -385,7 +369,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 59,
+      "id": "59",
       "title": "Life Is Good",
       "artist": "Future ft. Drake",
       "album": "High Off Life",
@@ -393,7 +377,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 60,
+      "id": "60",
       "title": "Memories",
       "artist": "Maroon 5",
       "album": "JORDI",
@@ -401,7 +385,7 @@
       "genre": "Pop"
     },
     {
-      "id": 61,
+      "id": "61",
       "title": "Before You Go",
       "artist": "Lewis Capaldi",
       "album": "Divinely Uninspired to a Hellish Extent",
@@ -409,7 +393,7 @@
       "genre": "Pop"
     },
     {
-      "id": 62,
+      "id": "62",
       "title": "Everything I Wanted",
       "artist": "Billie Eilish",
       "album": "When We All Fall Asleep, Where Do We Go?",
@@ -417,7 +401,7 @@
       "genre": "Pop"
     },
     {
-      "id": 63,
+      "id": "63",
       "title": "Lose You to Love Me",
       "artist": "Selena Gomez",
       "album": "Rare",
@@ -425,7 +409,7 @@
       "genre": "Pop"
     },
     {
-      "id": 64,
+      "id": "64",
       "title": "Falling",
       "artist": "Trevor Daniel",
       "album": "Nicotine",
@@ -433,7 +417,7 @@
       "genre": "Pop"
     },
     {
-      "id": 65,
+      "id": "65",
       "title": "Roxanne",
       "artist": "Arizona Zervas",
       "album": "Roxanne",
@@ -441,7 +425,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 66,
+      "id": "66",
       "title": "10,000 Hours",
       "artist": "Dan + Shay & Justin Bieber",
       "album": "10,000 Hours",
@@ -449,7 +433,7 @@
       "genre": "Country Pop"
     },
     {
-      "id": 67,
+      "id": "67",
       "title": "Señorita",
       "artist": "Shawn Mendes & Camila Cabello",
       "album": "Shawn Mendes",
@@ -457,7 +441,7 @@
       "genre": "Pop"
     },
     {
-      "id": 68,
+      "id": "68",
       "title": "Truth Hurts",
       "artist": "Lizzo",
       "album": "Cuz I Love You",
@@ -465,7 +449,7 @@
       "genre": "Pop"
     },
     {
-      "id": 69,
+      "id": "69",
       "title": "Good as Hell",
       "artist": "Lizzo",
       "album": "Cuz I Love You",
@@ -473,7 +457,7 @@
       "genre": "Pop"
     },
     {
-      "id": 70,
+      "id": "70",
       "title": "Sunflower",
       "artist": "Post Malone & Swae Lee",
       "album": "Spider-Man: Into the Spider-Verse",
@@ -481,7 +465,7 @@
       "genre": "Pop"
     },
     {
-      "id": 71,
+      "id": "71",
       "title": "Without Me",
       "artist": "Halsey",
       "album": "Manic",
@@ -489,7 +473,7 @@
       "genre": "Pop"
     },
     {
-      "id": 72,
+      "id": "72",
       "title": "Better Now",
       "artist": "Post Malone",
       "album": "beerbongs & bentleys",
@@ -497,7 +481,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 73,
+      "id": "73",
       "title": "Happier",
       "artist": "Marshmello & Bastille",
       "album": "Happier",
@@ -505,7 +489,7 @@
       "genre": "Pop"
     },
     {
-      "id": 74,
+      "id": "74",
       "title": "Lucid Dreams",
       "artist": "Juice WRLD",
       "album": "Goodbye & Good Riddance",
@@ -513,7 +497,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 75,
+      "id": "75",
       "title": "Girls Like You",
       "artist": "Maroon 5 ft. Cardi B",
       "album": "Red Pill Blues",
@@ -521,7 +505,7 @@
       "genre": "Pop"
     },
     {
-      "id": 76,
+      "id": "76",
       "title": "God's Plan",
       "artist": "Drake",
       "album": "Scorpion",
@@ -529,7 +513,7 @@
       "genre": "Hip Hop"
     },
     {
-      "id": 77,
+      "id": "77",
       "title": "Perfect",
       "artist": "Ed Sheeran",
       "album": "÷",
@@ -537,7 +521,7 @@
       "genre": "Pop"
     },
     {
-      "id": 78,
+      "id": "78",
       "title": "Havana",
       "artist": "Camila Cabello ft. Young Thug",
       "album": "Camila",
@@ -545,7 +529,7 @@
       "genre": "Pop"
     },
     {
-      "id": 79,
+      "id": "79",
       "title": "New Rules",
       "artist": "Dua Lipa",
       "album": "Dua Lipa",
@@ -553,12 +537,28 @@
       "genre": "Pop"
     },
     {
-      "id": 80,
+      "id": "80",
       "title": "Shape of You",
       "artist": "Ed Sheeran",
       "album": "÷",
       "duration": "3:53",
       "genre": "Pop"
+    },
+    {
+      "title": "Tum Hi Ho",
+      "artist": "Arijit Singh",
+      "album": "Aashiqui 2",
+      "duration": "4:18",
+      "genre": "Pop",
+      "id": "91"
+    },
+    {
+      "title": "Kun Faaya Kun",
+      "artist": "Wadali Brothers",
+      "album": "Rockstar",
+      "duration": "5:56",
+      "genre": "Classical",
+      "id": "911"
     }
   ]
-} 
+}
