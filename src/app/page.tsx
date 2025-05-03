@@ -12,12 +12,12 @@ export default function Home() {
     // Start the fade-out effect after 1.5 seconds
     const fadeTimer = setTimeout(() => {
       setIsFading(true);
-    }, 1500);
+    }, 100);
     
     // Redirect after the fade animation (total 2 seconds)
     const redirectTimer = setTimeout(() => {
       router.push('/dashboard');
-    }, 2000);
+    }, 100);
     
     return () => {
       clearTimeout(fadeTimer);
